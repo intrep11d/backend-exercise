@@ -1,0 +1,22 @@
+{
+  "name": "backend-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/intrep11d/backend-exercise.git"
+  },
+  "author": "Lawrence Tulod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intrep11d/backend-exercise/issues"
+  },
+  "homepage": "https://github.com/intrep11d/backend-exercise#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
