@@ -4,5 +4,17 @@
     "username": "john_doe",
     "password": "password123",
     "email": "john@example.com"
+  },
+  {
+    "id": 1728182986199,
+    "username": "lawrence_tulod",
+    "password": "$2b$10$T5LeBsOaCGXxpH6uC4RKfu25U7DI0JcGiXxN4zlD7rLZ6nH/TTpYy",
+    "email": "lawrence@example.com"
+  },
+  {
+    "id": 1728183033815,
+    "username": "ean_velayo",
+    "password": "$2b$10$r2eDBuPvc1lk0xZkhoLE7.IrYlIYR99zpZvqwcYI/9kw3IONNhb.6",
+    "email": "ean@example.com"
   }
 ]
