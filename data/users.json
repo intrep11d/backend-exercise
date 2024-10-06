@@ -16,5 +16,11 @@
     "username": "ean_velayo",
     "password": "$2b$10$r2eDBuPvc1lk0xZkhoLE7.IrYlIYR99zpZvqwcYI/9kw3IONNhb.6",
     "email": "ean@example.com"
+  },
+  {
+    "id": 1728191655770,
+    "username": "marymodesto",
+    "password": "$2b$10$lkL9jeG0wJr/jvE0FSdcPedxQoXXEXFR7vafw8Hl40RhZeIz6R/se",
+    "email": "mary@example.com"
   }
 ]
