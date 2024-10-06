@@ -2,7 +2,7 @@
 const userModel = require("../models/userModel");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-// const secretKey = 'your-secret-key';
+const errorHandler = require('../utils/errorHandler');
 require("dotenv").config();
 
 const secretKey = process.env.SECRET_KEY;
@@ -27,8 +27,7 @@ exports.register = async (req, res) => {
     userModel.addUser(newUser);
     res.status(201).json({ message: "User registered successfully." });
   } catch (error) {
-    console.error("Error registering user:", error);
-    res.status(500).json({ message: "Internal server error." });
+    errorHandler(res, error, "Error registering user");
   }
 };
 
@@ -56,7 +55,6 @@ exports.login = async (req, res) => {
       res.status(401).json({ message: "Invalid credentials." });
     }
   } catch (error) {
-    console.error("Error during login:", error);
-    res.status(500).json({ message: "Server error." });
+    errorHandler(res, error, "Error during login");
   }
 };
